@@ -1,11 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    /* color: #fff; */
 }
 
 
 body{
-    background-color: #fff;
+    background-color: #11426B;
 }
 
 #member {
@@ -35,6 +36,8 @@ img{
  #feedback{
     position: relative;
     padding: 15px;
+    margin: 0 40px;
+    top: 30px;
  }
 
  #line-alt{
@@ -42,3 +45,72 @@ img{
     width: 100%;
     background: linear-gradient(to right, transparent , #11426B, transparent );
  }
+
+
+ #card{
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    background-color: #fff;
+    box-shadow: 3px 3px 15px;
+
+ }
+
+ #card #content{
+    padding: 30px 15px;
+ }
+
+ #card img{
+    float: left;
+    padding-bottom: 40px;
+ }
+
+ #ending{
+    background-color: #11426B;
+    padding-top: 40px;
+ }
+
+ 
+
+ #buttons{
+    position: absolute;
+    bottom: -5px;
+    right: -2px
+ }
+
+ .button{
+    border-radius: 50%;
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border: none;
+ }
+#ending h5{
+    color: #fff;
+}
+
+ #ending a{
+    text-decoration: none;
+    color: #fff;
+
+ }
+
+#lastLine{
+    width: 100%;
+    margin: 50px 0;
+}
+ 
+
+#license{
+    display: flex;
+    position: relative;
+    /* border: 1px solid; */
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#license #right{
+    color: #fff;
+}
