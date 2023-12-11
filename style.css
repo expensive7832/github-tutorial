@@ -1,0 +1,41 @@
+.banner{
+    background: url(./bus.png), linear-gradient(92.43deg, #11426B -2.86%, rgba(17, 66, 107, 0.62) 43.07%, rgba(161, 49, 57, 0.18) 98.17%, rgba(17, 66, 107, 0.18) 98.17%);
+
+    background-blend-mode: darken;
+    width: 1440px;
+    height: 573px;
+    top: 54px;
+
+}
+
+#btn1{
+    padding-left:30px ;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #11426B;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#btn2 {
+    padding-left:30px ;
+    padding-right: 30px;
+    background-color: #11426B;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: 2s;
+}
+ 
+
+
+#btn2 a :nth-child(2) ::before{
+    background-color: #fff;
+    color: #11426B;
+}
+
+#btn2 a :nth-child(2) :hover{
+    background-color: #11426B;
+}
